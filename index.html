@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="stylesheet" href="stylestodo.css">
+</head>
+<body>
+    <!-- The container in which todo list is to be made  having length of 400px-->
+    <div class="contianer">
+
+<header class="text-center text-light my-4">
+<h1 class="mb-4">TodoList Project</h1>
+<form  class="search">
+    <input class="from-control m-auto" type="text" name="search"placeholder="Search Todos"/>
+</form>
+</header>
+<ul class="list-group todos mx-auto text-light">
+    <!-- For first todo list component -->
+    <!-- All li classes are of black background -->
+    <li class="list-group-item d-flex  jutify-content-between align-items-center ">
+        <span>Plau markiokart</span>
+        <i class="far fa-trash-alt delete"></i>
+    </li>
+    <!-- Seocnd todo list component -->
+    <!-- All TODO classes have black background -->
+    <li class="list-group-item d-flex  jutify-content-between align-items-center ">
+        <span>defeat ganon</span>
+        <i class="far fa-trash-alt delete"></i> 
+    </li>
+
+<!-- third to do list components -->
+
+<li class="list-group-item d-flex  jutify-content-between align-items-center ">
+        <span>make a veggie pie</span>
+        <i class="far fa-trash-alt delete"></i>
+    </li></ul>
+    <!-- Making a form -->
+    <form class="add text-center my-4">
+<label calss="text-light">Add a new Todo</label>
+<input class="form-control m-auto" type="text" name="add">
+ </form>
+</div>
+<script src="todolist.js"></script>
+</body>
+</html>
